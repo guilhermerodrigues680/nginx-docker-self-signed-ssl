@@ -1,0 +1,8 @@
+version: '3.3'
+
+services:
+  nginx:
+    build: .
+    ports:
+    - "4400:80"
+    - "4403:443"
